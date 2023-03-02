@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Prata';
+  src: url('../assets/Prata-Regular.ttf');
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}

@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Abhishek Sharma`,
+    siteUrl: `https://sharma-abhishek.netlify.app`
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-google-gtag"]
+  plugins: ["gatsby-plugin-postcss"]
 };
