@@ -4,20 +4,13 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Spacey",
-      description: "Solution to space tourism website challenge",
-      repo_link: "https://github.com/kn-oz/Spacey",
-      live_link: "https://kn-oz.github.io/Spacey/",
+      title: "Spacescope",
+      description: "A gallery to view Astronomy Picture of the day",
+      repo_link: "https://github.com/kn-oz/spacescope",
+      live_link: "https://spacescope.netlify.app",
     },
     {
       id: 2,
-      title: "birdie",
-      description: "twitter like social app UI",
-      repo_link: "https://github.com/kn-oz/birdie",
-      live_link: "https://kn-oz.github.io/birdie/",
-    },
-    {
-      id: 3,
       title: "a social cum dating app",
       description:
         "A social app to find and meet new people and chat with them",
@@ -25,21 +18,21 @@ export default function Projects() {
       live_link: "https://in-sync.netlify.app",
     },
     {
-      id: 5,
+      id: 3,
       title: "senpai-kart",
       description: "An ecommerce app built using next.js",
       repo_link: "https://github.com/kn-oz/senpai-cart",
-      live_link: "https://senpai-cart.vercel.app/"
+      live_link: "https://senpai-cart.vercel.app/",
     },
     {
-      id: 6,
+      id: 4,
       title: "zen-sama",
       description: "an app to help you relax and feel zen",
       repo_link: "https://github.com/kn-oz/zen_sama",
-      ive_link: "https://zen-sama.netlify.app"
+      ive_link: "https://zen-sama.netlify.app",
     },
     {
-      id: 6,
+      id: 5,
       title: "Tetris",
       description: "classic game using vanilla javascript",
       repo_link: "https://github.com/kn-oz/tetris",
@@ -51,7 +44,6 @@ export default function Projects() {
     <div
       id="projects"
       className="bg-gradient-to-r from-fuchsia-400 to-violet-600 w-full text-white md:h-screen pt-4"
-      
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 flex flex-col items-center">

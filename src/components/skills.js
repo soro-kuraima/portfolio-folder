@@ -8,6 +8,7 @@ import github from "../assets/github.png";
 import next from "../assets/nextjs.svg";
 import node from "../assets/node.png";
 import vite from "../assets/vite.svg";
+import typescript from "../assets/typescript.svg"
 
 export default function Skills() {
   const techs = [
@@ -33,7 +34,7 @@ export default function Skills() {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-300",
     },
     {
       id: 5,
@@ -59,6 +60,12 @@ export default function Skills() {
       src: vite,
       title: "Vite",
       style: "shadow-purple-500"
+    }, 
+    {
+      id: 10,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-700"
     }
   ]
 
