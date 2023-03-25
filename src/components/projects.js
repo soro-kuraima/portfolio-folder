@@ -11,7 +11,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "a social cum dating app",
+      title: "in-sync",
       description:
         "A social app to find and meet new people and chat with them",
       repo_link: "https://github.com/kn-oz/inSync",
@@ -53,8 +53,8 @@ export default function Projects() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {projects.map(({ id, title, description, repo_link, live_link }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <div className=" p-6 rounded-md duration-200 hover:scale-105">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg h-full">
+              <div className="p-6 rounded-md duration-200 hover:scale-105 flex flex-col justify-between">
                 <h1 className="font-bold text-2xl text-center">{title}</h1>
                 <h2 className="font-medium text-xl text-center">
                   {description}

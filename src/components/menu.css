@@ -94,3 +94,7 @@
     text-decoration: none;
     transition: opacity 400ms ease;
   }
+
+  .hide {
+    display: none;
+  }
